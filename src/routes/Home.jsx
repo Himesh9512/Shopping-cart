@@ -1,5 +1,7 @@
 import React from "react";
 
+import SpecsBottom from "../components/SpecsBottom";
+
 import Panigale from "../assets/panigale.jpg";
 
 const Home = () => {
@@ -12,7 +14,7 @@ const Home = () => {
 				}}>
 				<div></div>
 			</div>
-			<div className="h-[12vh] border-t-4 border-black">bottom</div>
+			<SpecsBottom />
 		</div>
 	);
 };

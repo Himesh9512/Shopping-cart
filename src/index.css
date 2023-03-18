@@ -12,4 +12,7 @@
 		background-repeat: no-repeat;
 		background-position: right;
 	}
+	.border-width {
+		border-left-width: 15px;
+	}
 }
