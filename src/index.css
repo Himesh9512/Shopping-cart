@@ -5,3 +5,11 @@
 .material-icons {
 	font-size: 2rem;
 }
+
+@layer utilities {
+	.background {
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+}
