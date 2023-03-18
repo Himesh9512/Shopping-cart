@@ -1,5 +1,15 @@
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
+import Home from "./routes/Home";
+
 function App() {
-	return <div className="App">Hello world</div>;
+	return (
+		<BrowserRouter>
+			<Navbar />
+		</BrowserRouter>
+	);
 }
 
 export default App;
