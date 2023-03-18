@@ -14,5 +14,6 @@
 	}
 	.border-width {
 		border-left-width: 15px;
+		border-right-width: 15px;
 	}
 }

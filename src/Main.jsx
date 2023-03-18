@@ -7,7 +7,7 @@ import About from "./routes/About";
 
 const Main = () => {
 	return (
-		<main className="max-w-screen w-screen">
+		<main className="max-w-screen w-screen font-maven-pro">
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/shop" element={<Shop />}>

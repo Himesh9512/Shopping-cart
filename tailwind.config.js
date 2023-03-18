@@ -4,9 +4,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				accent: "#8d1e1d",
+				accent: "#ea0b13",
 			},
 			fontFamily: {
+				orbitron: "Orbitron",
 				"maven-pro": "Maven Pro",
 			},
 		},
