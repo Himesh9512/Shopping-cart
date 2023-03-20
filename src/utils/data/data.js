@@ -6,7 +6,7 @@ import Img5 from "../../assets/images/panigale-v4s.png";
 import Img6 from "../../assets/images/panigale-v4r.png";
 import Img7 from "../../assets/images/panigale-v4-sp2.png";
 import Img8 from "../../assets/images/streetfighter-v2.png";
-import Img9 from "../..//assetsimages/streetfighter-v4.png";
+import Img9 from "../../assets/images/streetfighter-v4.png";
 import Img10 from "../../assets/images/streetfighter-v4s.png";
 import Img11 from "../../assets/images/streetfighter-v4-sp2.png";
 import Img12 from "../../assets/images/superleggera.png";
@@ -17,12 +17,12 @@ import Img16 from "../../assets/images/multistrada-v4-rally.png";
 import Img17 from "../../assets/images/supersport-950.png";
 import Img18 from "../../assets/images/supersport-950-s.png";
 
-export const data = [
+export const bikes = [
 	{
 		id: 1,
 		name: "desertx",
 		power: 110,
-		displacment: 937,
+		displacement: 937,
 		torque: 92,
 		weight: 202,
 		description:
@@ -34,7 +34,7 @@ export const data = [
 		id: 2,
 		name: "panigale v2",
 		power: 155,
-		displacment: 955,
+		displacement: 955,
 		torque: 104,
 		weight: 176,
 		description:
@@ -46,7 +46,7 @@ export const data = [
 		id: 3,
 		name: "panigale v2 bayliss",
 		power: 155,
-		displacment: 955,
+		displacement: 955,
 		torque: 104,
 		weight: 174.5,
 		description:
@@ -58,11 +58,11 @@ export const data = [
 		id: 4,
 		name: "panigale v4",
 		power: 215.5,
-		displacment: 1103,
+		displacement: 1103,
 		torque: 123.6,
 		weight: 175,
 		description:
-			"The Panigale V4 MY23 represents the last step in the characteristic path of Borgo Panigale's sports bikes. As is the case with motorcycles engaged in MotoGP and WorldSBK, the Panigale V4 is updated and improved year after year, and the 2022 version represents the most significant evolution since its launch year. For MY2023, a series of electronic improvements have been introduced that make the bike even easier and more intuitive for riders of all levels.",
+			"The Panigale V4 MY23 represents the last step in the characteristic path of Borgo Panigale's sports bikes. As is the case with motorcycles engaged in MotoGP and WorldSBK, the Panigale V4 is updated and improved year after year, and the 2022 version represents the most significant evolution since its launch year.",
 		image: Img4,
 		price: 999,
 	},
@@ -70,11 +70,11 @@ export const data = [
 		id: 5,
 		name: "panigale v4 s",
 		power: 215.5,
-		displacment: 1103,
+		displacement: 1103,
 		torque: 123.6,
 		weight: 174,
 		description:
-			"The Panigale V4 MY23 represents the last step in the characteristic path of Borgo Panigale's sports bikes. As is the case with motorcycles engaged in MotoGP and WorldSBK, the Panigale V4 is updated and improved year after year, and the 2022 version represents the most significant evolution since its launch year. For MY2023, a series of electronic improvements have been introduced that make the bike even easier and more intuitive for riders of all levels.",
+			"The Panigale V4 MY23 represents the last step in the characteristic path of Borgo Panigale's sports bikes. As is the case with motorcycles engaged in MotoGP and WorldSBK, the Panigale V4 is updated and improved year after year, and the 2022 version represents the most significant evolution since its launch year.",
 		image: Img5,
 		price: 999,
 	},
@@ -82,7 +82,7 @@ export const data = [
 		id: 6,
 		name: "panigale v4 r",
 		power: 237,
-		displacment: 998,
+		displacement: 998,
 		torque: 111.3,
 		weight: 172,
 		description:
@@ -94,7 +94,7 @@ export const data = [
 		id: 7,
 		name: "panigale v4 sp2",
 		power: 215.5,
-		displacment: 1103,
+		displacement: 1103,
 		torque: 123.6,
 		weight: 173,
 		description:
@@ -106,11 +106,11 @@ export const data = [
 		id: 8,
 		name: "streetfighter v2",
 		power: 153,
-		displacment: 955,
+		displacement: 955,
 		torque: 101.4,
 		weight: 178,
 		description:
-			"The new Streetfighter V2 is a sports naked with a one-of-a-kind character. It accommodates the needs of those looking for a bike that can combine the sporty DNA of the Panigale V2 with both the attitude and style of the much-admired Streetfighter. The result is an intuitive and easy-to-handle vehicle, with the right dose of power to ensure feisty performance and maximum riding fun.",
+			"The new Streetfighter V2 is a sports naked with a one-of-a-kind character. It accommodates the needs of those looking for a bike that can combine the sporty DNA of the Panigale V2 with both the attitude and style of the much-admired Streetfighter.",
 		image: Img8,
 		price: 999,
 	},
@@ -118,7 +118,7 @@ export const data = [
 		id: 9,
 		name: "streetfighter v4",
 		power: 208,
-		displacment: 1103,
+		displacement: 1103,
 		torque: 123,
 		weight: 180,
 		description:
@@ -130,7 +130,7 @@ export const data = [
 		id: 10,
 		name: "streetfighter v4 s",
 		power: 208,
-		displacment: 1103,
+		displacement: 1103,
 		torque: 123,
 		weight: 178,
 		description:
@@ -142,7 +142,7 @@ export const data = [
 		id: 11,
 		name: "streetfighter v4 sp2",
 		power: 208,
-		displacment: 1103,
+		displacement: 1103,
 		torque: 123,
 		weight: 177,
 		description:
@@ -154,7 +154,7 @@ export const data = [
 		id: 12,
 		name: "superleggera",
 		power: 224,
-		displacment: 998,
+		displacement: 998,
 		torque: 116,
 		weight: 159,
 		description:
@@ -166,7 +166,7 @@ export const data = [
 		id: 13,
 		name: "multistrada v2",
 		power: 113,
-		displacment: 937,
+		displacement: 937,
 		torque: 96,
 		weight: 199,
 		description:
@@ -178,7 +178,7 @@ export const data = [
 		id: 14,
 		name: "multistrada v2 s",
 		power: 113,
-		displacment: 937,
+		displacement: 937,
 		torque: 96,
 		weight: 202,
 		description:
@@ -190,7 +190,7 @@ export const data = [
 		id: 15,
 		name: "multistrada v4",
 		power: 170,
-		displacment: 1158,
+		displacement: 1158,
 		torque: 125,
 		weight: 215,
 		description:
@@ -202,7 +202,7 @@ export const data = [
 		id: 16,
 		name: "multistrada v4 rally",
 		power: 170,
-		displacment: 1158,
+		displacement: 1158,
 		torque: 121,
 		weight: 227,
 		description:
@@ -214,7 +214,7 @@ export const data = [
 		id: 17,
 		name: "supersport 950",
 		power: 110,
-		displacment: 937,
+		displacement: 937,
 		torque: 93,
 		weight: 184,
 		description:
@@ -226,7 +226,7 @@ export const data = [
 		id: 18,
 		name: "supersport 950 s",
 		power: 110,
-		displacment: 937,
+		displacement: 937,
 		torque: 93,
 		weight: 184,
 		description:
