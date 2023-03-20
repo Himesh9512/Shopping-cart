@@ -5,7 +5,7 @@ import TechSpec from "./TechSpec";
 
 const ProductSection = ({ bike }) => {
 	return (
-		<div className="mt-10 flex flex-[5] items-start justify-center">
+		<React.Fragment>
 			<div className="flex w-2/3 flex-col items-center justify-center">
 				<div className="flex justify-center gap-32">
 					<TechSpec title="POWER" unit="HP" amount={bike.power} />
@@ -17,7 +17,7 @@ const ProductSection = ({ bike }) => {
 				<p className="my-11 text-justify text-lg">{bike.description}</p>
 				<AddToCartButton price={bike.price} onClick={() => {}} />
 			</div>
-		</div>
+		</React.Fragment>
 	);
 };
 
