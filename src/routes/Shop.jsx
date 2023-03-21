@@ -16,7 +16,7 @@ const Shop = () => {
 					);
 				})}
 			</div>
-			<div className="mt-10 flex flex-[5] items-start justify-center">
+			<div className="flex flex-[5] flex-col items-center justify-start">
 				<Outlet />
 			</div>
 		</main>

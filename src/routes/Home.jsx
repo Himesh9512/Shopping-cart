@@ -17,7 +17,7 @@ const Home = () => {
 						PANIGALE <span className="text-accent">V</span>4
 					</div>
 				</div>
-				<Link to="/shop">
+				<Link to="/shop/4">
 					<button className="flex items-center justify-center bg-accent p-3 font-bold text-white">
 						DISCOVER MORE <span className="material-icons">keyboard_double_arrow_right</span>
 					</button>

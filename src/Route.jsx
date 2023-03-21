@@ -6,7 +6,7 @@ import Shop from "./routes/Shop";
 import About from "./routes/About";
 import ProductSection from "./components/ProductSection/ProductSection";
 
-const Main = () => {
+const MainRoute = () => {
 	return (
 		<main className="max-w-screen w-screen font-maven-pro">
 			<Routes>
@@ -20,4 +20,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default MainRoute;
