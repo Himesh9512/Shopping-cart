@@ -11,7 +11,7 @@ const Shop = () => {
 				{bikes.map((bike) => {
 					return (
 						<Link key={bike.id} to={`/shop/${bike.id}`}>
-							<BikeItem bike={bike} />;
+							<BikeItem bike={bike} />
 						</Link>
 					);
 				})}
