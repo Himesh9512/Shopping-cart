@@ -4,13 +4,17 @@ const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
 	const handleOnClick = (e) => {
 		if (e.target.innerHTML === "add") {
 			addBikeToCart(bike);
-		} else {
+		} else if (e.target.innerHTML === "remove") {
 			removeBikeFromCart(bike);
+		} else {
+			removeBikeFromCart(bike, true);
 		}
 	};
 
 	return (
-		<div className="flex h-fit w-fit flex-col items-center justify-between border-2 border-black p-2 pt-1">
+		<div
+			className="flex h-fit w-fit flex-col items-center justify-between border-2 border-black p-2 pt-1"
+			key={bike.id}>
 			<span className="font-orbitron text-base font-semibold uppercase">{bike.name}</span>
 			<div className="flex border-2 border-black ">
 				<img src={bike.image} alt={bike.name} />
@@ -28,7 +32,7 @@ const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
 					<span className="material-icons">add</span>
 				</button>
 			</div>
-			<button className="w-full bg-accent text-white">
+			<button className="w-full bg-accent text-white" onClick={(e) => handleOnClick(e)}>
 				<span className="material-icons">remove_shopping_cart</span>
 			</button>
 		</div>

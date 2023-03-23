@@ -6,7 +6,7 @@ import MainRoute from "./MainRoute";
 function App() {
 	const [shoppingCart, setShoppingCart] = useState([]);
 	const addBikeToCart = (bike) => {
-		const bikeIndex = shoppingCart.indexOf(bike);
+		const bikeIndex = shoppingCart.findIndex((x) => x.id === bike.id);
 		if (bikeIndex > -1) {
 			const newCart = [...shoppingCart];
 			newCart[bikeIndex].quantity++;
@@ -15,20 +15,23 @@ function App() {
 		} else {
 			setShoppingCart([...shoppingCart, bike]);
 		}
-		console.log(shoppingCart);
 	};
 
-	const removeBikeFromCart = (bike) => {
+	const removeBikeFromCart = (bike, removeBike) => {
 		const bikeIndex = shoppingCart.indexOf(bike);
+
 		if (bikeIndex > -1) {
 			const newCart = [...shoppingCart];
-			newCart[bikeIndex].quantity--;
+			if (removeBike) {
+				newCart.splice(bikeIndex, 1);
+			} else {
+				newCart[bikeIndex].quantity--;
+			}
 
 			setShoppingCart(newCart);
 		} else {
 			console.error("no bike found!");
 		}
-		console.log(shoppingCart);
 	};
 	return (
 		<BrowserRouter>
