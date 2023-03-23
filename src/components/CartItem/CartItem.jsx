@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
+	const [isDisabled, setIsDisabled] = useState(false);
 	const handleOnClick = (e) => {
+		bike.quantity > 2 ? setIsDisabled(false) : setIsDisabled(true);
 		if (e.target.innerHTML === "add") {
 			addBikeToCart(bike);
 		} else if (e.target.innerHTML === "remove") {
@@ -19,21 +21,27 @@ const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
 			<div className="flex border-2 border-black ">
 				<img src={bike.image} alt={bike.name} />
 			</div>
-			<div className="flex w-full justify-between text-xl">
+			<div className="flex w-full justify-center py-3 text-2xl">
 				<span className="font-bold">Price:</span>
 				<span>${bike.price}</span>
 			</div>
+
 			<div className="my-2 flex w-full justify-evenly">
-				<button className="flex border-2 border-black" onClick={(e) => handleOnClick(e)}>
+				<button
+					className="flex border-2 border-black"
+					onClick={(e) => handleOnClick(e)}
+					disabled={isDisabled}>
 					<span className="material-icons">remove</span>
 				</button>
-				<span className="text-2xl font-bold">{bike.quantity}</span>
+				<span className="w-full border-y-2 border-y-black text-center text-2xl font-bold">
+					{bike.quantity}
+				</span>
 				<button className="flex border-2 border-black" onClick={(e) => handleOnClick(e)}>
 					<span className="material-icons">add</span>
 				</button>
 			</div>
 			<button className="w-full bg-accent text-white" onClick={(e) => handleOnClick(e)}>
-				<span className="material-icons">remove_shopping_cart</span>
+				<span className="material-icons">close</span>
 			</button>
 		</div>
 	);
