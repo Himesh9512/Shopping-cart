@@ -39,7 +39,7 @@ const ContactUs = () => {
 						Post-ironic portland shabby chic echo park, banjo fashion axe
 					</p>
 					<div className="relative mb-4">
-						<label for="name" className="text-sm leading-7 text-gray-600">
+						<label htmlFor="name" className="text-sm leading-7 text-gray-600">
 							Name
 						</label>
 						<input
@@ -50,7 +50,7 @@ const ContactUs = () => {
 						/>
 					</div>
 					<div className="relative mb-4">
-						<label for="email" className="text-sm leading-7 text-gray-600">
+						<label htmlFor="email" className="text-sm leading-7 text-gray-600">
 							Email
 						</label>
 						<input
@@ -61,7 +61,7 @@ const ContactUs = () => {
 						/>
 					</div>
 					<div className="relative mb-4">
-						<label for="message" className="text-sm leading-7 text-gray-600">
+						<label htmlFor="message" className="text-sm leading-7 text-gray-600">
 							Message
 						</label>
 						<textarea
