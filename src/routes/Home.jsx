@@ -2,7 +2,7 @@ import React from "react";
 
 import SpecsBottom from "../components/SpecsBottom/SpecsBottom";
 
-import Panigale from "../assets/panigale.jpg";
+import Panigale from "../assets/images/panigale.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {

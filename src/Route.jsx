@@ -6,6 +6,7 @@ import Shop from "./routes/Shop";
 import About from "./routes/About";
 import ProductSection from "./components/ProductSection/ProductSection";
 import NotFound from "./routes/NotFound";
+import Cart from "./routes/Cart";
 
 const MainRoute = ({ addItemToCart }) => {
 	return (
@@ -16,6 +17,7 @@ const MainRoute = ({ addItemToCart }) => {
 					<Route path="/shop/:id" element={<ProductSection addItemToCart={addItemToCart} />} />
 				</Route>
 				<Route path="/about" element={<About />} />
+				<Route path="/cart" element={<Cart />} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</main>
