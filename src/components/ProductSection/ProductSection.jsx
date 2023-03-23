@@ -1,17 +1,17 @@
 import React from "react";
 
-import AddToCartButton from "./AddToCartButton";
+import Button from "../Button/Button";
 import TechSpec from "./TechSpec";
 
 import { getBike } from "../../utils/getBike";
 import { useParams } from "react-router-dom";
 
-const ProductSection = ({ addItemToCart }) => {
+const ProductSection = ({ addBikeToCart }) => {
 	const params = useParams();
 	const bike = getBike(parseInt(params.id));
 
 	const handleOnClick = () => {
-		addItemToCart({ ...bike, quantity: 1 });
+		addBikeToCart({ ...bike, quantity: 1 });
 	};
 
 	return (
@@ -28,7 +28,9 @@ const ProductSection = ({ addItemToCart }) => {
 				</div>
 				<img src={bike.image} alt={bike.name} className="flex h-auto w-96" />
 				<p className="my-4 h-32 text-justify text-lg">{bike.description}</p>
-				<AddToCartButton price={bike.price} onClick={handleOnClick} />
+				<div className="self-end">
+					<Button price={bike.price} onClick={handleOnClick} innerText="ADD TO CART" />
+				</div>
 			</div>
 		</React.Fragment>
 	);

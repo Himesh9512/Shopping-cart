@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import MainRoute from "./Route";
+import MainRoute from "./MainRoute";
 
 function App() {
 	const [shoppingCart, setShoppingCart] = useState([]);
-	const addItemToCart = (bike) => {
+	const addBikeToCart = (bike) => {
 		const bikeIndex = shoppingCart.indexOf(bike);
 		if (bikeIndex > -1) {
 			const newCart = [...shoppingCart];
@@ -17,7 +17,7 @@ function App() {
 		}
 	};
 
-	const removeItemFromCart = (bike) => {
+	const removeBikeFromCart = (bike) => {
 		const bikeIndex = shoppingCart.indexOf(bike);
 		if (bikeIndex > -1) {
 			const newCart = [...shoppingCart];
@@ -25,13 +25,17 @@ function App() {
 
 			setShoppingCart(newCart);
 		} else {
-			console.error("no item found!");
+			console.error("no bike found!");
 		}
 	};
 	return (
 		<BrowserRouter>
 			<Navbar />
-			<MainRoute addItemToCart={addItemToCart} />
+			<MainRoute
+				shoppingCart={shoppingCart}
+				addbikeToCart={addBikeToCart}
+				removeBikeFromCart={removeBikeFromCart}
+			/>
 		</BrowserRouter>
 	);
 }

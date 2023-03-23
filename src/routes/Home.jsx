@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
-		<div className="flex h-screen max-h-[90vh] w-full flex-col justify-end">
+		<main className="flex h-screen max-h-[90vh] w-full flex-col justify-end">
 			<div
 				className="background flex h-full w-full flex-col items-start justify-center pl-36"
 				style={{ backgroundImage: `url(${Panigale})` }}>
@@ -24,7 +24,7 @@ const Home = () => {
 				</Link>
 			</div>
 			<SpecsBottom />
-		</div>
+		</main>
 	);
 };
 
