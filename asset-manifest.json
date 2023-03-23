@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Shopping-cart/static/css/main.2f502824.css",
+    "main.js": "/Shopping-cart/static/js/main.c960e807.js",
+    "static/media/banner.jpg": "/Shopping-cart/static/media/banner.3f6db199e1c855f4ebdf.jpg",
+    "static/media/superleggera.png": "/Shopping-cart/static/media/superleggera.af7891ae5a7269603aa5.png",
+    "static/media/panigale.jpg": "/Shopping-cart/static/media/panigale.3f4f323cf9eb93c731b0.jpg",
+    "static/media/panigale-v2-bayliss.png": "/Shopping-cart/static/media/panigale-v2-bayliss.ef6c100b5d746550ec4d.png",
+    "static/media/desertx.png": "/Shopping-cart/static/media/desertx.4a0c8efb2d98b83f60b7.png",
+    "static/media/multistrada-v4-rally.png": "/Shopping-cart/static/media/multistrada-v4-rally.1c91e353537278e58da8.png",
+    "static/media/multistrada-v2s.png": "/Shopping-cart/static/media/multistrada-v2s.ee2dbcf4041a60199dc4.png",
+    "static/media/streetfighter-v4.png": "/Shopping-cart/static/media/streetfighter-v4.5034ccfb796b706f7cec.png",
+    "static/media/multistrada-v2.png": "/Shopping-cart/static/media/multistrada-v2.ad9d403217559ad683c0.png",
+    "static/media/panigale-v4r.png": "/Shopping-cart/static/media/panigale-v4r.13b98600849495311b4d.png",
+    "static/media/panigale-v2.png": "/Shopping-cart/static/media/panigale-v2.97c1c720ff394e26fded.png",
+    "static/media/streetfighter-v4-sp2.png": "/Shopping-cart/static/media/streetfighter-v4-sp2.a143b95be8d96ba406e5.png",
+    "static/media/streetfighter-v4s.png": "/Shopping-cart/static/media/streetfighter-v4s.4ed3d267a6e7f2c4b61d.png",
+    "static/media/panigale-v4s.png": "/Shopping-cart/static/media/panigale-v4s.7dd362b9ee57d816e382.png",
+    "static/media/panigale-v4.png": "/Shopping-cart/static/media/panigale-v4.013eccd2f8a1173cc7e5.png",
+    "static/media/multistrada-v4.png": "/Shopping-cart/static/media/multistrada-v4.d4186736bfba220331ba.png",
+    "static/media/panigale-v4-sp2.png": "/Shopping-cart/static/media/panigale-v4-sp2.09ad73276e6fd2629866.png",
+    "static/media/streetfighter-v2.png": "/Shopping-cart/static/media/streetfighter-v2.609a9bf9b693b51610d0.png",
+    "static/media/supersport-950.png": "/Shopping-cart/static/media/supersport-950.7d69fa294b4ece34688c.png",
+    "static/media/supersport-950-s.png": "/Shopping-cart/static/media/supersport-950-s.ecb12a64606dc86cc229.png",
+    "static/media/logo.png": "/Shopping-cart/static/media/logo.80eb0303bbd68eda1990.png",
+    "index.html": "/Shopping-cart/index.html",
+    "main.2f502824.css.map": "/Shopping-cart/static/css/main.2f502824.css.map",
+    "main.c960e807.js.map": "/Shopping-cart/static/js/main.c960e807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f502824.css",
+    "static/js/main.c960e807.js"
+  ]
+}
