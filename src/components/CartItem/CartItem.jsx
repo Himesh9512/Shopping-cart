@@ -23,7 +23,7 @@ const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
 			</div>
 			<div className="flex w-full justify-center py-3 text-2xl">
 				<span className="font-bold">Price:</span>
-				<span>${bike.price}</span>
+				<span>${bike.price.toLocaleString("en-US")}</span>
 			</div>
 
 			<div className="my-2 flex w-full justify-evenly">

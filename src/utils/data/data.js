@@ -28,7 +28,7 @@ export const bikes = [
 		description:
 			"Exploration. Fun. Performance. And a great desire to take and leave towards the horizon. The identity of this bike leaves no room for doubt: just looking at it, it brings you into the atmosphere of Dakar racing.",
 		image: Img1,
-		price: "16,795",
+		price: 16795,
 	},
 	{
 		id: 2,
@@ -40,7 +40,7 @@ export const bikes = [
 		description:
 			"The twin-cylinder Panigale has been given a thorough makeover. Renamed the Panigale V2, it takes a totally new design, it features sophisticated electronics based on a 6-axis inertial platform and, thanks to a more comfortable rider seat and the suspension set-up, offers better yet safer sports performance while making road riding more enjoyable and user-friendly than ever.",
 		image: Img2,
-		price: "17,795",
+		price: 17795,
 	},
 	{
 		id: 3,
@@ -52,7 +52,7 @@ export const bikes = [
 		description:
 			"The Panigale V2 Bayliss 1st Championship 20th Anniversary celebrates one of the most successful riders of all time and the symbol of an entire community: Troy Bayliss. A special motorcycle, manufactured in a numbered series, the pure expression of Ducati sportsmanship and a tribute to a timeless passion.",
 		image: Img3,
-		price: "21,000",
+		price: 21000,
 	},
 	{
 		id: 4,
@@ -64,7 +64,7 @@ export const bikes = [
 		description:
 			"The Panigale V4 MY23 represents the last step in the characteristic path of Borgo Panigale's sports bikes. As is the case with motorcycles engaged in MotoGP and WorldSBK, the Panigale V4 is updated and improved year after year, and the 2022 version represents the most significant evolution since its launch year.",
 		image: Img4,
-		price: "23,295",
+		price: 23295,
 	},
 	{
 		id: 5,
@@ -76,7 +76,7 @@ export const bikes = [
 		description:
 			"The Panigale V4 MY23 represents the last step in the characteristic path of Borgo Panigale's sports bikes. As is the case with motorcycles engaged in MotoGP and WorldSBK, the Panigale V4 is updated and improved year after year, and the 2022 version represents the most significant evolution since its launch year.",
 		image: Img5,
-		price: "29,995",
+		price: 29995,
 	},
 	{
 		id: 6,
@@ -88,7 +88,7 @@ export const bikes = [
 		description:
 			"Ducati presents the new Panigale V4 R: the bike that adopts technical solutions previously reserved for MotoGP and WorldSBK Championship.",
 		image: Img6,
-		price: "44,995",
+		price: 44995,
 	},
 	{
 		id: 7,
@@ -100,7 +100,7 @@ export const bikes = [
 		description:
 			"The Panigale V4 SP2 is the top-of-the-range model for Ducati super sports bikes: a special, exciting numbered-version for track riding, even more intuitive and less strenuous for non-professional riders.",
 		image: Img7,
-		price: "39,500",
+		price: 39500,
 	},
 	{
 		id: 8,
@@ -112,7 +112,7 @@ export const bikes = [
 		description:
 			"The new Streetfighter V2 is a sports naked with a one-of-a-kind character. It accommodates the needs of those looking for a bike that can combine the sporty DNA of the Panigale V2 with both the attitude and style of the much-admired Streetfighter.",
 		image: Img8,
-		price: "16,995",
+		price: 16995,
 	},
 	{
 		id: 9,
@@ -124,7 +124,7 @@ export const bikes = [
 		description:
 			"The Streetfighter V4 was an instant success and set new performance benchmarks in the super sports naked segment. Universally appreciated for its aggressive and minimalist aesthetic, characterized by a front inspired by the Joker of the comics, the Streetfighter V4 immediately entered the hearts of enthusiasts.",
 		image: Img9,
-		price: "19,995",
+		price: 19995,
 	},
 	{
 		id: 10,
@@ -136,7 +136,7 @@ export const bikes = [
 		description:
 			"The Streetfighter V4 was an instant success and set new performance benchmarks in the super sports naked segment. Universally appreciated for its aggressive and minimalist aesthetic, characterized by a front inspired by the Joker of the comics, the Streetfighter V4 immediately entered the hearts of enthusiasts.",
 		image: Img10,
-		price: "25,195",
+		price: 25195,
 	},
 	{
 		id: 11,
@@ -148,7 +148,7 @@ export const bikes = [
 		description:
 			"The top-of-the-range model in the Streetfighter family is the new Streetfighter V4 SP2 in a numbered version. A bike ready to take to the track, thanks to exclusive technical equipment that combines the Fight Formula with SP specifications, making it even more effective in sporty riding and particularly on the circuit.",
 		image: Img11,
-		price: "37,995",
+		price: 37995,
 	},
 	{
 		id: 12,
@@ -160,7 +160,7 @@ export const bikes = [
 		description:
 			"The epitome of engineering excellence, cutting-edge technology and aerodynamic design. The new Superleggera V4 represents the dream of designing the only motorcycle in the world approved for road use with carbon fibre frame, swinging arm and rims with an unbeatable power/weight ratio of 1.54 hp/kg.",
 		image: Img12,
-		price: "100,000",
+		price: 100000,
 	},
 	{
 		id: 13,
@@ -172,7 +172,7 @@ export const bikes = [
 		description:
 			"The Ducati Multistrada family continues its evolution with the Multistrada V2: the ideal bike to fully enjoy every route, versatile in everyday use and in the city, always with the sportiness and unmistakable style that characterize every Ducati.",
 		image: Img13,
-		price: "15,295",
+		price: 15295,
 	},
 	{
 		id: 14,
@@ -184,7 +184,7 @@ export const bikes = [
 		description:
 			"The Ducati Multistrada family continues its evolution with the Multistrada V2: the ideal bike to fully enjoy every route, versatile in everyday use and in the city, always with the sportiness and unmistakable style that characterize every Ducati.",
 		image: Img14,
-		price: "17,895",
+		price: 17895,
 	},
 	{
 		id: 15,
@@ -196,7 +196,7 @@ export const bikes = [
 		description:
 			"Get ready to discover the fourth Multistrada generation. Sportier and more touring, stronger in off-road use and easier in urban action. Lightweight and compact, with the new 170 HP V4 Granturismo engine for a sporty and exciting ride on mixed terrain.",
 		image: Img15,
-		price: "27,195",
+		price: 27195,
 	},
 	{
 		id: 16,
@@ -208,7 +208,7 @@ export const bikes = [
 		description:
 			"The new Multistrada V4 Rally is the ideal travel companion in all conditions, as easy and intuitive in the urban jungle as it is on the most daring off-road routes. High-performance, robust and reliable thanks to the V4 Granturismo and extended service intervals, it will carry you wherever your adventurous heart desires.",
 		image: Img16,
-		price: "29,995",
+		price: 29995,
 	},
 	{
 		id: 17,
@@ -220,7 +220,7 @@ export const bikes = [
 		description:
 			"The design of the SuperSport 950 evolves thanks to the fairings designed by the Ducati Style Centre which give the bike more sportiness, dynamism, fluidity in shapes and a strong and decisive resemblance to the Panigale V4, together with the full-LED headlamp equipped with DRL.",
 		image: Img17,
-		price: "15,195",
+		price: 15195,
 	},
 	{
 		id: 18,
@@ -232,6 +232,6 @@ export const bikes = [
 		description:
 			"The design of the SuperSport 950 evolves thanks to the fairings designed by the Ducati Style Centre which give the bike more sportiness, dynamism, fluidity in shapes and a strong and decisive resemblance to the Panigale V4, together with the full-LED headlamp equipped with DRL.",
 		image: Img18,
-		price: "17,695",
+		price: 17695,
 	},
 ];

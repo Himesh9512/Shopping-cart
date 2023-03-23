@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 import Button from "../components/Button/Button";
 import CartItem from "../components/CartItem/CartItem";
 
+import { totalPrice } from "../utils/utils";
+
 const Cart = ({ shoppingCart, addBikeToCart, removeBikeFromCart }) => {
+	const price = totalPrice(shoppingCart);
 	return (
 		<main className="h-full w-full">
 			<div className="max-w-screen flex h-[90vh] w-full flex-col">
@@ -24,7 +27,11 @@ const Cart = ({ shoppingCart, addBikeToCart, removeBikeFromCart }) => {
 					<Link to="/shop">
 						<button className="text">BACK TO SHOP</button>
 					</Link>
-					<Button price="999" onClick={() => alert("Vapas mat aana!")} innerText="PURCHASE" />
+					<Button
+						price={price}
+						onClick={() => alert("Thank you for being part of Ducati <3")}
+						innerText="PURCHASE"
+					/>
 				</div>
 			</div>
 		</main>

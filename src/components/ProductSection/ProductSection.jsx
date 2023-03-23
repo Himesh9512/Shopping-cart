@@ -3,7 +3,7 @@ import React from "react";
 import Button from "../Button/Button";
 import TechSpec from "./TechSpec";
 
-import { getBike } from "../../utils/getBike";
+import { getBike } from "../../utils/utils";
 import { useParams } from "react-router-dom";
 
 const ProductSection = ({ addBikeToCart }) => {
