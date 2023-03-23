@@ -36,7 +36,7 @@ const About = () => {
 					temporibus iure. Vero, dignissimos?
 				</p>
 			</section>
-			<h2 className="my-7 text-center text-4xl font-extrabold">Contact Us</h2>
+			<h2 className="mt-10 text-center text-4xl font-extrabold">Contact Us</h2>
 			<ContactUs />
 		</main>
 	);
