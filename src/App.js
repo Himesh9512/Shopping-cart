@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import MainRoute from "./MainRoute";
 
@@ -34,14 +34,14 @@ function App() {
 		}
 	};
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Navbar />
 			<MainRoute
 				shoppingCart={shoppingCart}
 				addBikeToCart={addBikeToCart}
 				removeBikeFromCart={removeBikeFromCart}
 			/>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
