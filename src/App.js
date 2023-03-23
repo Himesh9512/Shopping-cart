@@ -15,6 +15,7 @@ function App() {
 		} else {
 			setShoppingCart([...shoppingCart, bike]);
 		}
+		console.log(shoppingCart);
 	};
 
 	const removeBikeFromCart = (bike) => {
@@ -27,13 +28,14 @@ function App() {
 		} else {
 			console.error("no bike found!");
 		}
+		console.log(shoppingCart);
 	};
 	return (
 		<BrowserRouter>
 			<Navbar />
 			<MainRoute
 				shoppingCart={shoppingCart}
-				addbikeToCart={addBikeToCart}
+				addBikeToCart={addBikeToCart}
 				removeBikeFromCart={removeBikeFromCart}
 			/>
 		</BrowserRouter>

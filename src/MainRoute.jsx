@@ -22,7 +22,7 @@ const MainRoute = ({ shoppingCart, addBikeToCart, removeBikeFromCart }) => {
 					element={
 						<Cart
 							shoppingCart={shoppingCart}
-							addBikeaToCart={addBikeToCart}
+							addBikeToCart={addBikeToCart}
 							removeBikeFromCart={removeBikeFromCart}
 						/>
 					}

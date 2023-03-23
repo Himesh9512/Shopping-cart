@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = ({ price, onClick, innerText }) => {
 	return (
-		<div className="flex ">
+		<div className="flex">
 			<div className="p-3 text-xl font-bold">${price}</div>
 			<button
 				onClick={onClick}
