@@ -13,6 +13,7 @@ const ProductSection = ({ addItemToCart }) => {
 	const handleOnClick = () => {
 		addItemToCart({ ...bike, quantity: 1 });
 	};
+
 	return (
 		<React.Fragment>
 			<div className="flex w-full justify-center border-b-4 border-b-black font-orbitron text-2xl font-bold uppercase">

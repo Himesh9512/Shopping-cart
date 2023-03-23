@@ -18,7 +18,7 @@ const Home = () => {
 					</div>
 				</div>
 				<Link to="/shop/4">
-					<button className="flex items-center justify-center bg-accent p-3 font-bold text-white">
+					<button className="flex items-center justify-center bg-accent p-3 font-bold text-white hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
 						DISCOVER MORE <span className="material-icons">keyboard_double_arrow_right</span>
 					</button>
 				</Link>
