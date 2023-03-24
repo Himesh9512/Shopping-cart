@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Shopping cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a shopping cart app built using React JS and Tailwind CSS for Ducati Lovers. The app allows users to browse different Ducati models, add them to their cart, and checkout.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+[Live](https://himesh9512.github.io/Shopping-cart)
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Homepage](./src/assets/screenshot/homepage.png?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Shoppage](./src/assets/screenshot/shoppage.png?raw=true)
 
-### `npm test`
+![Cartpage](./src/assets/screenshot/cartpage.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Aboutpage](./src/assets/screenshot/aboutpage.png?raw=true)
 
-### `npm run build`
+![Errorpage](./src/assets/screenshot/errorpage.png?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+step 1: Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://https://github.com/Himesh9512/Shopping-cart.git
+```
 
-### `npm run eject`
+step 2: Go to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  cd Shopping-cart
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+step 3: Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+step 4: Start the server
 
-## Learn More
+```bash
+  npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+step 5: Open https://localhost:3000 to view it in browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
 
-### Code Splitting
+- React JS
+- TailwindCSS
+- React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+#### Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The home page displays a famous Ducati bike models that is available for purchase.
 
-### Making a Progressive Web App
+#### Shop Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The Shop page displays a list of bikes and a larger image of the bike, as well as additional information such as the bike's specifications and features. Users can select the bike they want to purchase and add it to their cart.
 
-### Advanced Configuration
+#### Cart Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The cart page displays the bikes that the user has added to their cart, as well as the total price of the order. Users can remove bikes from their cart or proceed to checkout.
