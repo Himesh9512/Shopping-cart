@@ -41,7 +41,7 @@ const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
 				</button>
 			</div>
 			<button className="w-full bg-accent text-white" onClick={(e) => handleOnClick(e)}>
-				<span className="material-icons">close</span>
+				<span className="material-icons m-1">delete_outline</span>
 			</button>
 		</div>
 	);
