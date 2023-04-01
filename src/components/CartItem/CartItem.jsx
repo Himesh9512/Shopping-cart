@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
-	const [isDisabled, setIsDisabled] = useState(false);
 	const handleOnClick = (e) => {
-		bike.quantity > 2 ? setIsDisabled(false) : setIsDisabled(true);
 		if (e.target.innerHTML === "add") {
 			addBikeToCart(bike);
 		} else if (e.target.innerHTML === "remove") {
@@ -30,7 +28,7 @@ const CartItem = ({ bike, addBikeToCart, removeBikeFromCart }) => {
 				<button
 					className="flex border-2 border-black"
 					onClick={(e) => handleOnClick(e)}
-					disabled={isDisabled}>
+					disabled={bike.quantity < 2}>
 					<span className="material-icons">remove</span>
 				</button>
 				<span className="w-full border-y-2 border-y-black text-center text-2xl font-bold">
